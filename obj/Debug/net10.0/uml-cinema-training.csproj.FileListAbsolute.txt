@@ -1,0 +1,15 @@
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\bin\Debug\net10.0\uml-cinema-training.exe
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\bin\Debug\net10.0\uml-cinema-training.deps.json
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\bin\Debug\net10.0\uml-cinema-training.runtimeconfig.json
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\bin\Debug\net10.0\uml-cinema-training.dll
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\bin\Debug\net10.0\uml-cinema-training.pdb
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\obj\Debug\net10.0\uml-cinema-training.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\obj\Debug\net10.0\uml-cinema-training.AssemblyInfoInputs.cache
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\obj\Debug\net10.0\uml-cinema-training.AssemblyInfo.cs
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\obj\Debug\net10.0\uml-cinema-training.csproj.CoreCompileInputs.cache
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\obj\Debug\net10.0\uml-cinema-training.sourcelink.json
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\obj\Debug\net10.0\uml-cinema-training.dll
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\obj\Debug\net10.0\refint\uml-cinema-training.dll
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\obj\Debug\net10.0\uml-cinema-training.pdb
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\obj\Debug\net10.0\uml-cinema-training.genruntimeconfig.cache
+C:\Users\chazart\Documents\mesprojet\projetUML\uml-cinema-training\obj\Debug\net10.0\ref\uml-cinema-training.dll
