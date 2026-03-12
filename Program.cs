@@ -2,8 +2,8 @@
 
 class Movie
 {
-    public string Title { get; set; }
-    public int Duration { get; set; } // in minutes
+    public string? Title { get; set; }
+    public int Duration { get; set; }
 
     public void Display()
     {
