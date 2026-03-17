@@ -1,23 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
 
-// Exercise 4 - Multiplicité
+// Exercise 5 - Plusieurs relations
+// Un film appartient à un studio
 // Une playlist contient plusieurs films
+
+class Studio
+{
+    public string Name { get; set; }
+    public string City { get; set; }
+
+    public Studio(string name, string city)
+    {
+        Name = name;
+        City = city;
+    }
+
+    public void Display()
+    {
+        Console.WriteLine($"Studio: {Name} ({City})");
+    }
+}
 
 class Movie
 {
     public string Title { get; set; }
     public int Duration { get; set; }
+    public Studio Studio { get; set; }
 
-    public Movie(string title, int duration)
+    public Movie(string title, int duration, Studio studio)
     {
         Title = title;
         Duration = duration;
+        Studio = studio;
     }
 
     public void Display()
     {
-        Console.WriteLine($"  - {Title} ({Duration} minutes)");
+        Console.WriteLine($"  - {Title} ({Duration} minutes) - Studio: {Studio.Name}");
     }
 }
 
@@ -52,18 +72,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Create 2 films
-        Movie movie1 = new Movie("Inception", 148);
-        Movie movie2 = new Movie("The Dark Knight", 152);
+        // Create a studio
+        Studio studio = new Studio("Warner Bros", "Los Angeles");
 
-        // Create 1 playlist
+        // Create two films linked to this studio
+        Movie movie1 = new Movie("Inception", 148, studio);
+        Movie movie2 = new Movie("The Dark Knight", 152, studio);
+
+        // Create a playlist
         Playlist playlist = new Playlist("My Favorites");
 
         // Add films to playlist
         playlist.AddMovie(movie1);
         playlist.AddMovie(movie2);
 
-        // Display films
+        // Display films (with studio name for each)
         playlist.DisplayMovies();
     }
 }
